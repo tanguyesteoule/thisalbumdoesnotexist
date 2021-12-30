@@ -66,6 +66,9 @@ Personally, I use this feature when my notebook is disconnected to restart the t
 
 To give an idea about the computation time, I trained this network for about 7 days on 1 Tesla P100-PCIE-16GB GPU.
 
+It is interesting to see the evolution of the images according to the training process.
+The model learns progressively to draw letters and (kind of) faces:
+![Examples GIF](./assets/images/example.gif)
 ## Outlooks
 - I would like to re-train the current model by filtering by musical genre (To try to understand what differentiates for example metal and classical music covers). 
 
